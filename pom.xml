@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>es.uca.eclipse</groupId>
+    <artifactId>aggregate</artifactId>
+    <version>1-SNAPHOST</version>
+    <packaging>pom</packaging>
+    <name>All Projects</name>
+
+    <modules>
+        <module>parent</module>
+        <module>count.imports</module>
+        <module>hello.world</module>
+        <module>hello.feature</module>
+        <module>hello.updatesite</module>
+    </modules>
+</project>

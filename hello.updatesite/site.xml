@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<site>
-   <feature url="features/hello.feature_1.0.0.201203131709.jar" id="hello.feature" version="1.0.0.201203131709">
-      <category name="es.uca.eclipse.hello"/>
-   </feature>
-   <category-def name="es.uca.eclipse.hello" label="Hello Plugins"/>
-</site>
