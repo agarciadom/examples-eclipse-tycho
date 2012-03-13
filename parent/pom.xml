@@ -6,7 +6,7 @@
 
     <groupId>es.uca.eclipse</groupId>
     <artifactId>parent</artifactId>
-    <version>1-SNAPHOST</version>
+    <version>1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <properties>
@@ -27,38 +27,29 @@
 		<artifactId>target-platform-configuration</artifactId>
 		<version>${tycho.version}</version>
 		<configuration>
-		    <environments>
+                    <resolver>p2</resolver>
+                    <target>
+                        <artifact>
+                            <artifactId>target.definition</artifactId>
+                            <groupId>${project.groupId}</groupId>
+                            <version>1-SNAPSHOT</version>
+                            <classifier>jdt</classifier>
+                        </artifact>
+                    </target>
+                    <environments>
 			<environment>
-			    <os>linux</os>
-			    <ws>gtk</ws>
+			    <os>win32</os>
+			    <ws>win32</ws>
 			    <arch>x86</arch>
 			</environment>
 			<environment>
 			    <os>linux</os>
 			    <ws>gtk</ws>
-			    <arch>x86_64</arch>
-			</environment>
-			<environment>
-			    <os>win32</os>
-			    <ws>win32</ws>
 			    <arch>x86</arch>
-			</environment>
-			<environment>
-			    <os>win32</os>
-			    <ws>win32</ws>
-			    <arch>x86_64</arch>
-			</environment>
+                        </environment>
 		    </environments>
 		</configuration>
 	    </plugin>
         </plugins>
     </build>
-
-    <repositories>
-        <repository>
-            <id>indigo</id>
-            <layout>p2</layout>
-            <url>http://download.eclipse.org/releases/indigo</url>
-        </repository>
-    </repositories>
 </project>

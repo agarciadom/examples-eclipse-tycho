@@ -6,11 +6,12 @@
 
     <groupId>es.uca.eclipse</groupId>
     <artifactId>aggregate</artifactId>
-    <version>1-SNAPHOST</version>
+    <version>1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>All Projects</name>
 
     <modules>
+        <module>target.definition</module>
         <module>parent</module>
         <module>count.imports</module>
         <module>hello.world</module>
