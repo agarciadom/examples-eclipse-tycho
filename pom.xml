@@ -16,6 +16,7 @@
         <module>count.imports</module>
         <module>hello.world</module>
         <module>hello.feature</module>
+        <module>hello.source.feature</module>
         <module>hello.updatesite</module>
     </modules>
 </project>

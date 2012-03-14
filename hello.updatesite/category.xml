@@ -3,5 +3,8 @@
    <feature url="features/hello.feature_1.0.0.qualifier.jar" id="hello.feature" version="1.0.0.qualifier">
       <category name="hello.category"/>
    </feature>
+   <feature url="features/hello.source.feature_1.0.0.qualifier.jar" id="hello.source.feature" version="1.0.0.qualifier">
+      <category name="hello.category"/>
+   </feature>
    <category-def name="hello.category" label="Hello Plugins"/>
 </site>
